@@ -14,7 +14,7 @@ function sendit(){
     
     // 정규표현식
     const expNameText = /[가-힣]+$/;
-    const expHpText = /^\d{3}\d{3,4}\d{4}$/;
+    const expHpText = /^010\d{3,4}\d{4}$/;
     const expEmailText = /^[A-Za-z0-9\.\-]+@[A-Za-z0-9\.\-]+\.[A-Za-z0-9]+$/;
     const expPwText = /^.*(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
 
